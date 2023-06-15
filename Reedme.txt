@@ -1,0 +1,21 @@
+Instalación y configuración del ambiente de Cypress
+
+Prerrequisitos
+
+* Node.js instalado en tu máquina. Puedes descargarlo desde https://nodejs.org.
+
+Pasos
+
+1. Clona este repositorio ().
+
+2. Abre una terminal y navega hasta la carpeta raíz del proyecto.
+
+3. Ejecuta el siguiente comando para instalar las dependencias del proyecto:
+	npm install
+4. Una vez que se hayan instalado las dependencias, ejecuta el siguiente comando:
+	npm run cypress:open
+	npx cypress open
+
+5. En la interfaz de Cypress, selecciona la prueba que deseas ejecutar y espera a que se abra el navegador Cypress.
+
+¡Listo! Ahora puedes interactuar con Cypress y ejecutar tus pruebas.
